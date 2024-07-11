@@ -1,4 +1,4 @@
-23712613323005044
+23721216792639902
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2544,6 +2544,27 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CD1206_S01575
+DIODE_CD1206-S01575_BRN
+
+CD1206-S01575 
+0
+2
+2
+CD1206_S01575
+DIODE_CD1206-S01575_BRN-L
+
+CD1206-S01575 
+0
+2
+2
+CD1206_S01575
+DIODE_CD1206-S01575_BRN-M
+
+CD1206-S01575 
 0
 2
 2
@@ -64648,6 +64669,20 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+LP2985_33DBVR
+DBV0005A_L
+
+LP2985-33DBVR 
+0
+5
+5
+M7
+DIOM505270X240
+
+
 0
 2
 2

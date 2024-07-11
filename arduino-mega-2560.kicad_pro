@@ -386,6 +386,18 @@
     [
       "01593c05-32ee-43cc-9d3f-a6fed62a39f4",
       "Root"
+    ],
+    [
+      "fa0a716f-64bc-4849-b74e-8fb50e8d1155",
+      "power-supply"
+    ],
+    [
+      "f9bc6889-35cb-482b-9d74-3324f3dce8d7",
+      "MCU-ATMEGA2560"
+    ],
+    [
+      "b6f834a9-11ca-4a09-9cf4-5366685f0c51",
+      "ATmega16U2"
     ]
   ],
   "text_variables": {}
