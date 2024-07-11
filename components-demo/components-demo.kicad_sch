@@ -5,6 +5,995 @@
 	(uuid "6cce0c8a-571b-420a-b01f-2667264fc93e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CSTCE16M9V53-R0:CSTCE16M9V53-R0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CSTCE16M9V53-R0"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CSTCE16M9V53-R0:OSC_CSTCE16M9V53-R0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "May 7, 2019"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CSTCE16M9V53-R0_0_0"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.8575 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.8575 -2.54) (xy -2.8575 -3.4925)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.8575 -1.5875) (xy -2.8575 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2225 -2.54) (xy -2.2225 -3.4925)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.2225 -1.5875) (xy -2.2225 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy 0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.2225 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 3.81) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -3.4925)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.5875) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -2.54) (xy 3.175 -3.4925)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.5875) (xy 3.175 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:USB_B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_B"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Type B connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_B_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.81 5.588)
+					(end -2.54 4.572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 4.318) (xy -2.286 4.318) (xy -2.286 5.715) (xy -2.667 6.096) (xy -3.683 6.096) (xy -4.064 5.715)
+						(xy -4.064 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_B_1_1"
+				(pin power_out line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LD1117S50CTR:LD1117S50CTR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LD1117S50CTR"
+				(at -12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LD1117S50CTR:SOT230P700X180-4N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "37"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LD1117S50CTR_0_0"
+				(rectangle
+					(start -12.7 -7.62)
+					(end 12.7 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "VOUT__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LED:APA-106-F5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2315,6 +3304,1162 @@
 				)
 			)
 		)
+		(symbol "PMV48XP:PMV48XP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.394 7.8111 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PMV48XP"
+				(at -3.33 -14.2859 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PMV48XP:SOT95P230X110-3N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Nexperia USA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nP-Channel 20 V 3.5A (Ta) 510mW (Ta), 4.15W (Tc) Surface Mount TO-236AB\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "SOT-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PMV48XP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-23 Nexperia USA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_FARNELL" "1894743"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PMV48XP/Nexperia/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PMV48XP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1768394&manufacturer=Nexperia USA&part_name=PMV48XP&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER" "NXP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_NEWARK" "55T6958"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PMV48XP/Nexperia/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PMV48XP_0_0"
+				(rectangle
+					(start -12.7 -10.16)
+					(end 12.7 5.08)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SMD-FERRITE-BEAD-30R-3A_0805_:SMD-FERRITE-BEAD-30R-3A_0805_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -2.5414 1.2707 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMD-FERRITE-BEAD-30R-3A_0805_"
+				(at -2.5446 -2.5446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SMD-FERRITE-BEAD-30R-3A_0805_:L0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nCB2x1.2x.9mm, 30?25%3A, non-shdSMD | Bourns MH2029-300Y\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0805 Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MH2029-300Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VALUE" "30R 3A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MH2029-300Y/Bourns+-+J.W.+Miller/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MH2029-300Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=42623&manufacturer=Bourns&part_name=MH2029-300Y&search_term=mh2029"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MH2029-300Y/Bourns+-+J.W.+Miller/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SMD-FERRITE-BEAD-30R-3A_0805__0_0"
+				(arc
+					(start -1.27 0)
+					(mid -1.905 0.6323)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.635 0.6323)
+					(end -1.27 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 0.635 0.6323)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.905 0.6323)
+					(end 1.27 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B")
+		(at 148.59 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "048b67a2-3dfd-4bba-8e74-d4eabade2a79")
+		(property "Reference" "J1"
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B"
+			(at 148.59 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Type B connector"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4bbc3737-9fb4-429d-bbf4-0e966c058954")
+		)
+		(pin "1"
+			(uuid "85cb8186-e8e4-42e7-8eef-61c75865c47f")
+		)
+		(pin "4"
+			(uuid "d030deca-addd-4f99-aa67-4e83c035deac")
+		)
+		(pin "2"
+			(uuid "eb9a9248-6451-42a2-9816-d03ab8dc7e04")
+		)
+		(pin "3"
+			(uuid "77a66bd4-8afa-4c04-a83d-9950ac268ad0")
+		)
+		(instances
+			(project ""
+				(path "/6cce0c8a-571b-420a-b01f-2667264fc93e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LD1117S50CTR:LD1117S50CTR")
+		(at 194.31 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c3cb862-5e28-486f-8386-9097d95d922a")
+		(property "Reference" "U2"
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117S50CTR"
+			(at 194.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LD1117S50CTR:SOT230P700X180-4N"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "37"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "513efdd0-93fa-4d87-964d-599155b1101b")
+		)
+		(pin "3"
+			(uuid "a65f059a-d37f-4ff0-b291-e998855ef77a")
+		)
+		(pin "4"
+			(uuid "5e49f295-c631-470e-8d57-943e298d46b1")
+		)
+		(pin "2"
+			(uuid "40db485f-4032-4f96-9839-65c07298f0df")
+		)
+		(instances
+			(project ""
+				(path "/6cce0c8a-571b-420a-b01f-2667264fc93e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU-ATMEGA2560-16AU_TQFP100_:MCU-ATMEGA2560-16AU_TQFP100_")
+		(at 72.39 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62198c07-f76c-46dd-9d5c-58fc0854607c")
+		(property "Reference" "U3"
+			(at 72.39 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCU-ATMEGA2560-16AU_TQFP100_"
+			(at 72.39 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MCU-ATMEGA2560-16AU_TQFP100_:TQFP100-0.5-14X14MM"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ATMEGA2560-16AU-ND"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Microchip"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=44196&manufacturer=Microchip&part_name=ATMEGA2560-16AU&search_term=atmega2560-16au"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TQFP-100 Microchip"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ATMEGA2560-16AU"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ATMEGA2560-16AU/Microchip/view-part/?ref=snap"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ATMEGA2560-16AU"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nAVR AVR® ATmega Microcontroller IC 8-Bit 16MHz 256KB (128K x 16) FLASH 100-TQFP (14x14)\n"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ATMEGA2560-16AU/Microchip/view-part/?ref=eda"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "20"
+			(uuid "3f18e351-0ab4-448c-8aad-63a77ca0fdf9")
+		)
+		(pin "64"
+			(uuid "192d5786-f7e0-47d4-805d-a9740a6a1219")
+		)
+		(pin "3"
+			(uuid "e766122c-c758-4875-8285-b1a820947cb5")
+		)
+		(pin "18"
+			(uuid "67c62d51-5c09-4cbb-9624-f39454fd2cf2")
+		)
+		(pin "26"
+			(uuid "e68a2f0a-febb-4414-b351-81c9597a80fd")
+		)
+		(pin "38"
+			(uuid "9e10fbec-a0f7-49d4-8313-8b30a613b83c")
+		)
+		(pin "41"
+			(uuid "484310cc-ea1b-4447-af12-de85aea96b35")
+		)
+		(pin "13"
+			(uuid "011cb485-d1a8-45a5-be86-5064b6341bd3")
+		)
+		(pin "56"
+			(uuid "14a3e34c-2c45-43ae-a378-dbf9570f7d5c")
+		)
+		(pin "52"
+			(uuid "18cd9c69-cfe7-48ad-b546-fdbafcf121b8")
+		)
+		(pin "50"
+			(uuid "35ed7efd-f9f7-42d3-b5c3-b0dbfc9e51fa")
+		)
+		(pin "58"
+			(uuid "d709cd0c-cf2b-439b-9465-3b96758c8b66")
+		)
+		(pin "10"
+			(uuid "da3551bc-f36a-48f5-8fc7-6f20b6009070")
+		)
+		(pin "29"
+			(uuid "3556ecc6-dbd8-41c7-b0e8-064c99e7f92c")
+		)
+		(pin "35"
+			(uuid "f19ca1d1-c7c2-4ba1-9e56-264da8824fed")
+		)
+		(pin "40"
+			(uuid "ef2321f2-3986-48b7-9aab-db38aeded0ff")
+		)
+		(pin "37"
+			(uuid "65395841-7041-45af-921e-9fa5298ec244")
+		)
+		(pin "5"
+			(uuid "29db6beb-da49-461f-9458-c6c89eaf60d9")
+		)
+		(pin "61"
+			(uuid "d6df3466-a9bc-4378-85c1-741c5bc80202")
+		)
+		(pin "62"
+			(uuid "101d1139-7c6f-4596-b58a-6bee3d80940b")
+		)
+		(pin "6"
+			(uuid "94ec95be-2824-4a66-aab6-5e9530b1962b")
+		)
+		(pin "65"
+			(uuid "0c0b903a-36ad-4e50-9a03-212e96893c24")
+		)
+		(pin "12"
+			(uuid "dc383b90-303a-4484-9432-6443340bfae8")
+		)
+		(pin "60"
+			(uuid "1f536cb2-d126-4941-ac04-b355861b1963")
+		)
+		(pin "43"
+			(uuid "b93898e3-5ac8-40cd-8c44-6bc1ada067e5")
+		)
+		(pin "100"
+			(uuid "fd73e4f5-ccb5-4a4b-887d-6082c5506570")
+		)
+		(pin "46"
+			(uuid "f2f95b0d-b061-442e-8538-8712d37b66d6")
+		)
+		(pin "1"
+			(uuid "74dbc915-cf95-4af8-9e0f-47b9938acc60")
+		)
+		(pin "2"
+			(uuid "0ad098e5-f998-47a9-9953-84e8cce5115c")
+		)
+		(pin "21"
+			(uuid "1d9ea99e-7f1b-43eb-b478-88e5d734daed")
+		)
+		(pin "23"
+			(uuid "e1a2d225-d74c-4289-a127-be5f005e4269")
+		)
+		(pin "59"
+			(uuid "829fb1db-65cb-45a3-a8f5-156aa29fe7cb")
+		)
+		(pin "51"
+			(uuid "6284c3b1-852a-4441-a57e-d4726173372e")
+		)
+		(pin "66"
+			(uuid "25b03cfa-1c9d-4861-a6f9-ed88b1a98f5d")
+		)
+		(pin "14"
+			(uuid "7af01a5b-213a-4f55-88c7-ca0098d3471b")
+		)
+		(pin "16"
+			(uuid "b55a5562-eec9-4502-bd81-15b04a227091")
+		)
+		(pin "19"
+			(uuid "9a4c7cbf-87db-4729-9d56-1115358b8d60")
+		)
+		(pin "25"
+			(uuid "229f7666-5928-45ac-b333-251c2b4a12ae")
+		)
+		(pin "32"
+			(uuid "d8cfcf73-155e-400c-a4fa-31cf3e0504ce")
+		)
+		(pin "33"
+			(uuid "aec3f362-9d00-4b56-b65b-8a02da39fc56")
+		)
+		(pin "39"
+			(uuid "1037cec6-2700-4527-aa43-3b1f7c310f2b")
+		)
+		(pin "17"
+			(uuid "f536df46-8137-43e7-ba83-368641754f0e")
+		)
+		(pin "27"
+			(uuid "24c698aa-605c-43bd-9ada-435598917c3f")
+		)
+		(pin "44"
+			(uuid "f9cc1631-14e8-4174-ac51-38d605424a88")
+		)
+		(pin "47"
+			(uuid "9d6c6304-723c-44d6-966e-4ff1aa5ec400")
+		)
+		(pin "53"
+			(uuid "511ffa87-f6a0-4c9c-87a4-d462c83145fb")
+		)
+		(pin "34"
+			(uuid "bf76520a-1025-4897-9ef3-ac7ba6091b85")
+		)
+		(pin "30"
+			(uuid "4e85eb2a-5c61-4d22-9ac3-6dc92a0c6908")
+		)
+		(pin "31"
+			(uuid "ee12ff2a-435b-41ca-8e34-5428129b85d5")
+		)
+		(pin "36"
+			(uuid "c597cb2c-5c70-4ace-8044-a89bc3a0e511")
+		)
+		(pin "42"
+			(uuid "1c60275b-c7ac-4f98-babf-70fc6d1d4770")
+		)
+		(pin "15"
+			(uuid "78cf4f60-f6c7-4c16-834d-877dc9165d94")
+		)
+		(pin "28"
+			(uuid "06eee540-eb84-4b84-ab92-638b585962f2")
+		)
+		(pin "4"
+			(uuid "bc682eba-6a31-4ec4-ae58-940e858f32f1")
+		)
+		(pin "45"
+			(uuid "1680b4cc-db7a-45ad-9219-b9f70ef2e1b1")
+		)
+		(pin "48"
+			(uuid "5d255099-3718-4473-897d-df4facaf5c7f")
+		)
+		(pin "49"
+			(uuid "d082a738-83c2-435c-986a-596ae2565d5e")
+		)
+		(pin "54"
+			(uuid "3ee8e4d1-0bc5-4ea6-a27c-6e24272de9c0")
+		)
+		(pin "24"
+			(uuid "5ef721d7-2fc1-41f9-b511-05d419a03c3f")
+		)
+		(pin "55"
+			(uuid "59e04334-d455-4f7b-a8c6-e3ff33c242c7")
+		)
+		(pin "57"
+			(uuid "a9423cef-0cd5-4cd7-a826-52adcf8c774a")
+		)
+		(pin "22"
+			(uuid "f5f86b66-de07-473e-be20-f2b5bc8fec03")
+		)
+		(pin "63"
+			(uuid "0f42b6f9-7fcb-44e7-90ac-fe8a7aab5ea2")
+		)
+		(pin "11"
+			(uuid "ddae421e-a446-45a6-940d-b7a65226e314")
+		)
+		(pin "74"
+			(uuid "c29a1c02-3250-444d-ab64-e96b050710e7")
+		)
+		(pin "78"
+			(uuid "4537a677-c127-4f08-b942-bb7258f0a83b")
+		)
+		(pin "94"
+			(uuid "4cb1cadc-0b34-4abf-8d06-a0b9c528bfb4")
+		)
+		(pin "8"
+			(uuid "3471803b-3e0c-4949-aec4-82c81026ced3")
+		)
+		(pin "9"
+			(uuid "386e505f-21c8-4164-81e9-3da26bb14120")
+		)
+		(pin "96"
+			(uuid "2d22e521-b927-4e0b-832a-ae96185156ea")
+		)
+		(pin "97"
+			(uuid "16eabc45-ecde-42a9-a42f-29907446ba72")
+		)
+		(pin "80"
+			(uuid "bdabf48b-a0a4-4425-8ddc-f073e3d420ee")
+		)
+		(pin "86"
+			(uuid "79e04512-8b91-487c-a218-47f55599645f")
+		)
+		(pin "69"
+			(uuid "4ce4bc4f-ff1e-4f72-a39e-5a533b5b0b6a")
+		)
+		(pin "95"
+			(uuid "7c8919d2-741c-4553-b404-ea9087843dd1")
+		)
+		(pin "76"
+			(uuid "039f6980-4ff2-45a7-929d-1d2f10030b61")
+		)
+		(pin "84"
+			(uuid "9b7340b3-7aa0-43d0-9d64-d4569cf3db5b")
+		)
+		(pin "88"
+			(uuid "e71cca59-bfc7-4044-a4c5-ca074c42e49e")
+		)
+		(pin "73"
+			(uuid "248a2bee-108a-4194-af9d-0630d6fda536")
+		)
+		(pin "82"
+			(uuid "21e0b8cc-7a61-4390-80e5-3f09d3526d92")
+		)
+		(pin "90"
+			(uuid "912eb27b-68c0-4468-832f-ea2e9a774c26")
+		)
+		(pin "92"
+			(uuid "03f5dadd-aee8-4741-9df7-658205572bb9")
+		)
+		(pin "89"
+			(uuid "65c1bcd7-e139-4cdc-a152-d8681f9ccfef")
+		)
+		(pin "85"
+			(uuid "289c0547-728c-45ca-a4a0-5902bf4cab45")
+		)
+		(pin "99"
+			(uuid "ae4533af-74a6-4db4-8836-223cdc8fe074")
+		)
+		(pin "79"
+			(uuid "0434d6ed-9ece-4a10-ae94-5c3170a855fe")
+		)
+		(pin "83"
+			(uuid "13c37432-99bb-41d2-b57e-a0e189438ab2")
+		)
+		(pin "71"
+			(uuid "71f975ac-b740-455e-a215-136a53c2c353")
+		)
+		(pin "72"
+			(uuid "68d8045b-26a9-4f98-8066-29ff27f9dcb1")
+		)
+		(pin "67"
+			(uuid "388e577e-fa02-4f3e-90a4-253821431ee9")
+		)
+		(pin "98"
+			(uuid "7f7fc25f-282a-459f-8eb4-a0ad2736ca33")
+		)
+		(pin "93"
+			(uuid "eb8b209d-c8f1-494e-b98e-099783412af1")
+		)
+		(pin "75"
+			(uuid "b646c09e-1962-4fab-a527-057b9adc7f89")
+		)
+		(pin "70"
+			(uuid "b184f26a-8a68-4882-90cd-8359f61756d5")
+		)
+		(pin "7"
+			(uuid "35f73b1b-51ff-41aa-b640-838b4f03009e")
+		)
+		(pin "87"
+			(uuid "73a2430c-4a9f-4d02-abe3-66d38a296214")
+		)
+		(pin "91"
+			(uuid "b6876405-d9a7-42a6-be6b-61c2552ec1f8")
+		)
+		(pin "77"
+			(uuid "d44f431f-41d8-4ee7-a494-3a51a3b06e26")
+		)
+		(pin "81"
+			(uuid "07a3d261-9c51-45f0-bab4-4094774e8a6f")
+		)
+		(pin "68"
+			(uuid "546ee168-8505-42eb-981a-f12b0d8b3aaa")
+		)
+		(instances
+			(project ""
+				(path "/6cce0c8a-571b-420a-b01f-2667264fc93e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "LED:APA-106-F5")
@@ -2393,33 +4538,33 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU-ATMEGA2560-16AU_TQFP100_:MCU-ATMEGA2560-16AU_TQFP100_")
-		(at 73.66 95.25 0)
+		(lib_id "PMV48XP:PMV48XP")
+		(at 242.57 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aef0b695-7261-4370-ba01-d2fc782d872e")
-		(property "Reference" "U1"
-			(at 73.66 11.43 0)
+		(uuid "c1e9d387-7a97-4cf5-8557-d625515b7b4a")
+		(property "Reference" "U4"
+			(at 242.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MCU-ATMEGA2560-16AU_TQFP100_"
-			(at 73.66 13.97 0)
+		(property "Value" "PMV48XP"
+			(at 242.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MCU-ATMEGA2560-16AU_TQFP100:TQFP100-0.5-14X14MM"
-			(at 73.66 95.25 0)
+		(property "Footprint" "PMV48XP:SOT95P230X110-3N"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +4574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 95.25 0)
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +4583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 95.25 0)
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,18 +4591,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey_Part_Number" "ATMEGA2560-16AU-ND"
-			(at 73.66 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Microchip"
-			(at 73.66 95.25 0)
+		(property "MF" "Nexperia USA"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,8 +4601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=44196&manufacturer=Microchip&part_name=ATMEGA2560-16AU&search_term=atmega2560-16au"
-			(at 73.66 95.25 0)
+		(property "Description_1" "\nP-Channel 20 V 3.5A (Ta) 510mW (Ta), 4.15W (Tc) Surface Mount TO-236AB\n"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,8 +4611,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "TQFP-100 Microchip"
-			(at 73.66 95.25 0)
+		(property "PACKAGE" "SOT-3"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,8 +4621,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ATMEGA2560-16AU"
-			(at 73.66 95.25 0)
+		(property "MPN" "PMV48XP"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,8 +4631,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ATMEGA2560-16AU/Microchip/view-part/?ref=snap"
-			(at 73.66 95.25 0)
+		(property "Price" "None"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,8 +4641,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ATMEGA2560-16AU"
-			(at 73.66 95.25 0)
+		(property "Package" "SOT-23 Nexperia USA"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,8 +4651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\nAVR AVR® ATmega Microcontroller IC 8-Bit 16MHz 256KB (128K x 16) FLASH 100-TQFP (14x14)\n"
-			(at 73.66 95.25 0)
+		(property "OC_FARNELL" "1894743"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,8 +4661,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ATMEGA2560-16AU/Microchip/view-part/?ref=eda"
-			(at 73.66 95.25 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PMV48XP/Nexperia/view-part/?ref=snap"
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,310 +4671,370 @@
 				(hide yes)
 			)
 		)
-		(pin "33"
-			(uuid "8342abe6-d787-4b79-a70d-d06ffb9763d0")
+		(property "MP" "PMV48XP"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "12"
-			(uuid "d0b8243b-69ff-47ea-af0c-2a9683f56692")
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1768394&manufacturer=Nexperia USA&part_name=PMV48XP&search_term=None"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "53"
-			(uuid "56c43dd5-ed6a-4b39-98c7-05cb36133bc4")
+		(property "SUPPLIER" "NXP"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "49"
-			(uuid "63fc8da0-c89a-439f-a311-394616cebd35")
+		(property "OC_NEWARK" "55T6958"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "54"
-			(uuid "d4f67d47-12c4-4ee5-b56d-0660002f2e04")
+		(property "Availability" "In Stock"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "19"
-			(uuid "c3b57fc8-b715-4fc6-b1aa-d820956ce1fe")
-		)
-		(pin "28"
-			(uuid "58f3b1fa-0d0e-4688-a0a0-e5df88431839")
-		)
-		(pin "26"
-			(uuid "49367da8-821f-411e-8e2a-5f630c8f6967")
-		)
-		(pin "100"
-			(uuid "30cdeae0-1be5-47c6-ac68-a2325632cffb")
-		)
-		(pin "40"
-			(uuid "9a41d8a4-6ae6-4e42-bc3f-7111a4850bcf")
-		)
-		(pin "18"
-			(uuid "bee16007-8a65-4583-951e-9704dcd3a952")
-		)
-		(pin "42"
-			(uuid "af4aa8a1-1126-4dd1-8c32-584610e3d617")
-		)
-		(pin "48"
-			(uuid "9b835994-eebb-4c41-85f2-fd2eb910fd2f")
-		)
-		(pin "20"
-			(uuid "341b83fd-1e98-4ebc-8345-3f64de81dfd0")
-		)
-		(pin "25"
-			(uuid "19973031-65b0-418d-9089-7ac98d131857")
-		)
-		(pin "17"
-			(uuid "91e519f9-5f87-485c-8f0b-7172d8b423ea")
-		)
-		(pin "30"
-			(uuid "6035a56c-fadb-45fb-90f4-821b12d5cf40")
-		)
-		(pin "44"
-			(uuid "b6f935b4-c8f4-4b90-ada5-08dd643de532")
-		)
-		(pin "41"
-			(uuid "3495bac5-8472-4484-9d6e-6bd727d9b56e")
-		)
-		(pin "36"
-			(uuid "b12fcf35-2360-41d8-b441-27c00fda6155")
-		)
-		(pin "4"
-			(uuid "928a837d-b272-476d-9951-83bc747cda7a")
-		)
-		(pin "45"
-			(uuid "71956fde-4eec-42f7-8c34-aae9eb07d759")
-		)
-		(pin "22"
-			(uuid "29d5cc6e-a31a-4435-b966-462e62976c55")
-		)
-		(pin "29"
-			(uuid "e1d3b809-e5ea-4bfa-82b9-ea6786eee3ee")
-		)
-		(pin "11"
-			(uuid "b6df0cc7-492f-447d-a7ee-b75c370fd6ab")
-		)
-		(pin "3"
-			(uuid "db00c1e8-a31e-4c21-a56e-b671f57ccb9d")
-		)
-		(pin "15"
-			(uuid "cebe7d7d-cc50-4e16-bae8-c519d4bc37b2")
-		)
-		(pin "21"
-			(uuid "8ccbf213-54ce-4043-8883-94ac8a5d13c8")
-		)
-		(pin "14"
-			(uuid "0016be6b-6b24-4931-982f-3e1329e4e8d1")
-		)
-		(pin "31"
-			(uuid "851b9d35-0160-4b7c-9492-fa66534fec26")
-		)
-		(pin "16"
-			(uuid "c6a40124-db3e-4914-a75b-43b113e3d4a4")
-		)
-		(pin "34"
-			(uuid "2b8f687e-8cee-49af-b8dd-d93f09b0113e")
-		)
-		(pin "24"
-			(uuid "54243678-fb8c-45f1-a965-19b0f2998adc")
-		)
-		(pin "2"
-			(uuid "082b9fb3-526c-4c25-bb6a-2b6848541b83")
-		)
-		(pin "23"
-			(uuid "d080f686-84cd-4529-b61c-07af079b591d")
-		)
-		(pin "35"
-			(uuid "dcec0353-474c-40ea-b19e-493e73c059ad")
-		)
-		(pin "38"
-			(uuid "8af30024-5ee1-4777-864d-067892502510")
-		)
-		(pin "39"
-			(uuid "3efae9cd-c973-4c43-a50a-e6418fbe3987")
-		)
-		(pin "43"
-			(uuid "e99656fb-de30-4252-b69a-76de01977e86")
-		)
-		(pin "46"
-			(uuid "793a05a3-b6d7-4f76-98ed-37d1f791bac7")
-		)
-		(pin "47"
-			(uuid "2d5dad06-80c4-4d9f-9f99-83680631a77f")
-		)
-		(pin "5"
-			(uuid "e91e5aff-802b-40c7-b4bb-919dff98c250")
+		(property "Check_prices" "https://www.snapeda.com/parts/PMV48XP/Nexperia/view-part/?ref=eda"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ea3907c6-87c4-4faf-b1ab-6ab850d910e2")
+			(uuid "f279a78a-99ac-4715-9a0f-447955c445fc")
 		)
-		(pin "50"
-			(uuid "d07b1df2-f6f9-4c5d-aca5-b864e24a326b")
+		(pin "2"
+			(uuid "e4f64c33-a872-4707-a816-d5e54a37dd1f")
 		)
-		(pin "51"
-			(uuid "185bd2d8-3446-42f9-bb98-e399795debf7")
-		)
-		(pin "10"
-			(uuid "6216a520-8f44-4424-97ce-e179ef2ed303")
-		)
-		(pin "32"
-			(uuid "31702033-2875-413d-92fb-426736f4d1d8")
-		)
-		(pin "13"
-			(uuid "18f44d47-48ff-4796-8035-53d483f213b8")
-		)
-		(pin "27"
-			(uuid "05419067-4e19-4694-8c85-4fe852b1c089")
-		)
-		(pin "37"
-			(uuid "d9d4736f-03e3-4a54-8afc-4d7965e3bbf7")
-		)
-		(pin "52"
-			(uuid "c23143fb-a182-40b0-9c03-dd023fc9e1c4")
-		)
-		(pin "81"
-			(uuid "a5807f80-71d3-433b-8e72-881beaea216f")
-		)
-		(pin "83"
-			(uuid "c6ca12e5-a23f-4e6d-a908-fcedd44ed4b3")
-		)
-		(pin "84"
-			(uuid "1205c1e6-51c4-4a64-bbba-97795a295b6b")
-		)
-		(pin "85"
-			(uuid "a096f676-86db-4a78-9494-9b58021a1393")
-		)
-		(pin "56"
-			(uuid "edb14793-b041-48f8-a943-d1b8be4e159e")
-		)
-		(pin "77"
-			(uuid "86da6711-766c-41a3-9a4d-760463f9f0ca")
-		)
-		(pin "78"
-			(uuid "103ad72d-4f17-4f37-97f0-3c835d0c820b")
-		)
-		(pin "59"
-			(uuid "3a0d811b-4f61-4b9f-96bc-8daf89dacd98")
-		)
-		(pin "67"
-			(uuid "c505ff06-7214-43de-9b6d-ab67d13c920c")
-		)
-		(pin "87"
-			(uuid "7b41cd75-9eef-46f2-a71f-9933ac6b9442")
-		)
-		(pin "62"
-			(uuid "49f7be3d-82d4-4b8e-8f13-eb183a95edab")
-		)
-		(pin "82"
-			(uuid "4ee2d757-6c30-4256-84d2-7ac4da74173f")
-		)
-		(pin "66"
-			(uuid "f0c5521f-1645-4295-98ed-d3b6b51ce1db")
-		)
-		(pin "75"
-			(uuid "4ecaf0de-4473-4438-8ae1-cdd46a0b9b96")
-		)
-		(pin "63"
-			(uuid "30e39d0d-6078-4529-8dd6-37c7f6ec2848")
-		)
-		(pin "79"
-			(uuid "cf6d9774-c6cc-4982-90e4-6a1d6e7ccbf2")
-		)
-		(pin "55"
-			(uuid "b0b184e8-a057-4568-803e-983426248580")
-		)
-		(pin "86"
-			(uuid "16810850-9aba-4265-887a-16939598f8ed")
-		)
-		(pin "72"
-			(uuid "363ef29b-d750-4e13-9051-3b82fb5b7334")
-		)
-		(pin "88"
-			(uuid "a46db716-2f72-4b72-a94b-760aa602093a")
-		)
-		(pin "89"
-			(uuid "e110ffcb-be01-4807-8a40-afe8e9dd323c")
-		)
-		(pin "9"
-			(uuid "a456aae6-9264-4f18-8b0c-7be182ba5053")
-		)
-		(pin "90"
-			(uuid "d90dc54d-165d-418d-ba3b-16d2851a6e11")
-		)
-		(pin "57"
-			(uuid "f8ee5d31-eec2-4959-a8a2-edad3ab7f489")
-		)
-		(pin "8"
-			(uuid "1764a8a2-5c03-4b39-b730-3144ce56a753")
-		)
-		(pin "61"
-			(uuid "78f39c54-e0db-49ac-86df-cfc5f28aa8d1")
-		)
-		(pin "91"
-			(uuid "c7f4dab7-2afd-4998-a0ff-1b80b92c1772")
-		)
-		(pin "92"
-			(uuid "18b4708c-b4cd-4989-b346-8c2121bd0667")
-		)
-		(pin "93"
-			(uuid "a0bb5a18-4a16-4e0c-8204-67da5d563315")
-		)
-		(pin "94"
-			(uuid "aa697966-9055-4e1a-ae66-f56feefea9c0")
-		)
-		(pin "73"
-			(uuid "9268486f-8792-47f3-86df-99ecd27cc18e")
-		)
-		(pin "68"
-			(uuid "059a1236-5f1a-4dab-83c8-3c83176bd516")
-		)
-		(pin "95"
-			(uuid "1d043e5f-c197-442e-ab9d-fd53b7f80d7d")
-		)
-		(pin "96"
-			(uuid "21b69269-263e-4af5-b3f6-02a282f47620")
-		)
-		(pin "97"
-			(uuid "f6971a10-99f6-49e2-a824-3c904caffef6")
-		)
-		(pin "58"
-			(uuid "c63c8631-9f32-48f8-9cd4-e89bf4db755d")
-		)
-		(pin "6"
-			(uuid "e92e8c9e-2716-4c02-bd91-7f4eb67061c8")
-		)
-		(pin "64"
-			(uuid "2c5c3c9e-52ba-464b-8b8c-aa410a096faa")
-		)
-		(pin "65"
-			(uuid "b6621867-fd26-4063-8906-4094b69da374")
-		)
-		(pin "7"
-			(uuid "3220d698-94fc-4e19-82d9-8084ee5facc0")
-		)
-		(pin "60"
-			(uuid "6c519d03-1948-4735-82e2-e6a05fdf6d8a")
-		)
-		(pin "71"
-			(uuid "9c45943e-7a4d-4304-9a0a-558255066d4f")
-		)
-		(pin "76"
-			(uuid "ce947938-f9f7-4f8d-b9c3-736c0cdfd2b4")
-		)
-		(pin "80"
-			(uuid "122d01fb-0bbb-4c49-a5cf-0e7ab7f79373")
-		)
-		(pin "69"
-			(uuid "42aa2ed9-488f-4193-b2e9-3a5b5247c6c9")
-		)
-		(pin "74"
-			(uuid "e2740c70-1064-4963-a7d6-4363dce0db54")
-		)
-		(pin "70"
-			(uuid "256bf2bc-1bb8-4c70-92c2-72d00eaab079")
-		)
-		(pin "99"
-			(uuid "ee82f010-1c22-44f2-8deb-d5a4b7ac735c")
-		)
-		(pin "98"
-			(uuid "888a8981-5bd3-4ec9-9a07-9ffa9c39f9e4")
+		(pin "3"
+			(uuid "9b108da9-ae16-4025-847f-bbd7a80602d1")
 		)
 		(instances
 			(project ""
 				(path "/6cce0c8a-571b-420a-b01f-2667264fc93e"
-					(reference "U1")
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CSTCE16M9V53-R0:CSTCE16M9V53-R0")
+		(at 207.01 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e18d1425-ca25-4010-bfc3-0e52a19e99ab")
+		(property "Reference" "Y1"
+			(at 207.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CSTCE16M9V53-R0"
+			(at 207.01 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CSTCE16M9V53-R0:OSC_CSTCE16M9V53-R0"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "May 7, 2019"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bcad23c-1d94-43ba-bae8-7d13041ff0d0")
+		)
+		(pin "3"
+			(uuid "ffd29a7f-125c-45c6-a4f4-60ad647bbedd")
+		)
+		(pin "2"
+			(uuid "c55eadf2-9b2f-400b-93e1-a92155b181db")
+		)
+		(instances
+			(project ""
+				(path "/6cce0c8a-571b-420a-b01f-2667264fc93e"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMD-FERRITE-BEAD-30R-3A_0805_:SMD-FERRITE-BEAD-30R-3A_0805_")
+		(at 167.64 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eefdc1a9-efc8-4cc3-a141-3a36d9578dcf")
+		(property "Reference" "FB1"
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD-FERRITE-BEAD-30R-3A_0805_"
+			(at 167.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD-FERRITE-BEAD-30R-3A_0805_:L0805"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCB2x1.2x.9mm, 30?25%3A, non-shdSMD | Bourns MH2029-300Y\n"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Bourns"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MH2029-300Y"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" "30R 3A"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MH2029-300Y/Bourns+-+J.W.+Miller/view-part/?ref=snap"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MH2029-300Y"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=42623&manufacturer=Bourns&part_name=MH2029-300Y&search_term=mh2029"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MH2029-300Y/Bourns+-+J.W.+Miller/view-part/?ref=eda"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cf52666-af4c-451d-87d0-fae1f506bf46")
+		)
+		(pin "2"
+			(uuid "c9b3486a-ee19-40d5-aaaa-dd59c7edffd0")
+		)
+		(instances
+			(project ""
+				(path "/6cce0c8a-571b-420a-b01f-2667264fc93e"
+					(reference "FB1")
 					(unit 1)
 				)
 			)

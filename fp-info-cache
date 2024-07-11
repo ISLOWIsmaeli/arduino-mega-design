@@ -1,4 +1,4 @@
-23702290153058884
+23712613323005044
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2547,6 +2547,13 @@ speaker CUI
 0
 2
 2
+CSTCE16M9V53_R0
+OSC_CSTCE16M9V53-R0
+
+
+0
+3
+3
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -63440,6 +63447,13 @@ solder jumper open
 0
 5
 3
+LD1117S50CTR
+SOT230P700X180-4N
+
+
+0
+4
+4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -64637,13 +64651,20 @@ Yellow 5381 Series LED
 0
 2
 2
-MCU-ATMEGA2560-16AU_SNAPMAGIC
+MCU-ATMEGA2560-16AU_TQFP100
 TQFP100-0.5-14X14MM
 <b>100-lead Thin Quad Flat Pack Package Outline</b>
 
 0
 100
 100
+MF_MSMF050_2
+FUSE_F050-2
+
+MF-MSMF050-2 
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -68718,6 +68739,13 @@ https://www.addicore.com/Pro-Mini-p/ad249.htm
 0
 29
 29
+PMV48XP
+SOT95P230X110-3N
+
+
+0
+3
+3
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
@@ -89116,6 +89144,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SMD-FERRITE-BEAD-30R-3A_0805_
+L0805
+
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -96053,6 +96088,13 @@ igbt diode module
 0
 25
 25
+USB-B-S-X-X-VT
+SAMTEC_USB-B-S-X-X-VT
+
+
+0
+6
+6
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
