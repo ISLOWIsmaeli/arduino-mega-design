@@ -2714,45 +2714,46 @@
 				)
 			)
 		)
-		(symbol "MH2029_300Y:MH2029-300Y"
+		(symbol "SMD-FERRITE-BEAD-30R-3A_0805_:SMD-FERRITE-BEAD-30R-3A_0805_"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at 6.985 5.08 0)
+			(property "Reference" "FB"
+				(at -2.5414 1.2707 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "MH2029-300Y"
-				(at 6.985 -2.54 0)
+			(property "Value" "SMD-FERRITE-BEAD-30R-3A_0805_"
+				(at -2.5446 -2.5446 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "IND_BOURNS_MH2029"
+			(property "Footprint" "SMD-FERRITE-BEAD-30R-3A_0805_:L0805"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "MH2029-300Y"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -2766,97 +2767,121 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "MF" "Bourns"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "MH2029-300Y"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "IND_BOURNS_MH2029"
+			(property "Description_1" "\nCB2x1.2x.9mm, 30?25%3A, non-shdSMD | Bourns MH2029-300Y\n"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "MH2029-300Y_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
+			(property "Package" "0805 Bourns"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 1.27)
+			)
+			(property "MPN" "MH2029-300Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 1.27)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 1.27)
+			)
+			(property "VALUE" "30R 3A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 12.7 1.27)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MH2029-300Y/Bourns+-+J.W.+Miller/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
+			)
+			(property "MP" "MH2029-300Y"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=42623&manufacturer=Bourns&part_name=MH2029-300Y&search_term=mh2029"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MH2029-300Y/Bourns+-+J.W.+Miller/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SMD-FERRITE-BEAD-30R-3A_0805__0_0"
 				(arc
-					(start 5.08 1.27)
-					(mid 3.81 2.5344)
-					(end 2.54 1.27)
+					(start -1.27 0)
+					(mid -1.905 0.6323)
+					(end -2.54 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2866,9 +2891,9 @@
 					)
 				)
 				(arc
-					(start 7.62 1.27)
-					(mid 6.35 2.5344)
-					(end 5.08 1.27)
+					(start 0 0)
+					(mid -0.635 0.6323)
+					(end -1.27 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2878,9 +2903,9 @@
 					)
 				)
 				(arc
-					(start 10.16 1.27)
-					(mid 8.89 2.5344)
-					(end 7.62 1.27)
+					(start 1.27 0)
+					(mid 0.635 0.6323)
+					(end 0 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2890,9 +2915,9 @@
 					)
 				)
 				(arc
-					(start 12.7 1.27)
-					(mid 11.43 2.5344)
-					(end 10.16 1.27)
+					(start 2.54 0)
+					(mid 1.905 0.6323)
+					(end 1.27 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2901,184 +2926,38 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 15.24 0 180)
+				(pin passive line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 0)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MH2029-300Y_1_2"
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5344 3.81)
-					(end -1.27 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5344 6.35)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5344 8.89)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 12.7)
-					(mid -2.5344 11.43)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3369,6 +3248,12 @@
 		(uuid "6f8b8b45-4bff-4e8f-b4e3-51868b47f9b5")
 	)
 	(junction
+		(at 215.9 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "734f3afe-e111-46d5-9d45-a098981a37ea")
+	)
+	(junction
 		(at 116.84 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3439,12 +3324,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e52b39f2-1cc8-4bf5-87fb-7dbceab36200")
-	)
-	(junction
-		(at 215.9 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e94b2799-edcf-4cee-8952-b239f8ccae31")
 	)
 	(junction
 		(at 58.42 74.93)
@@ -3527,6 +3406,16 @@
 			(type default)
 		)
 		(uuid "08eedfdf-bf12-4412-be4f-db2753105ab0")
+	)
+	(wire
+		(pts
+			(xy 228.6 45.72) (xy 236.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096dcc5f-9321-4504-84b6-307d93864c28")
 	)
 	(wire
 		(pts
@@ -3767,6 +3656,16 @@
 			(type default)
 		)
 		(uuid "2adef12c-1756-444d-bf70-422f59bf7bd8")
+	)
+	(wire
+		(pts
+			(xy 215.9 45.72) (xy 218.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9beb2b-2bb7-4a91-9d03-75a32b30f228")
 	)
 	(wire
 		(pts
@@ -4057,16 +3956,6 @@
 			(type default)
 		)
 		(uuid "7636a86e-ee3d-4b08-b1df-6ec8312a6f07")
-	)
-	(wire
-		(pts
-			(xy 236.22 45.72) (xy 231.14 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d797aca-ad1a-4e15-9831-e70acdcad5db")
 	)
 	(wire
 		(pts
@@ -5629,7 +5518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Hirose:Hirose_DF11-4DP-2DSA_2x02_P2.00mm_Vertical"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -7082,6 +6971,185 @@
 		)
 	)
 	(symbol
+		(lib_id "SMD-FERRITE-BEAD-30R-3A_0805_:SMD-FERRITE-BEAD-30R-3A_0805_")
+		(at 223.52 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86833518-5cfa-4cd8-94c1-2b0085d8fe79")
+		(property "Reference" "FB1"
+			(at 223.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD-FERRITE-BEAD-30R-3A_0805_"
+			(at 223.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD-FERRITE-BEAD-30R-3A_0805_:L0805"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bourns"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCB2x1.2x.9mm, 30?25%3A, non-shdSMD | Bourns MH2029-300Y\n"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Bourns"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MH2029-300Y"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" "30R 3A"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MH2029-300Y/Bourns+-+J.W.+Miller/view-part/?ref=snap"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MH2029-300Y"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=42623&manufacturer=Bourns&part_name=MH2029-300Y&search_term=mh2029"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MH2029-300Y/Bourns+-+J.W.+Miller/view-part/?ref=eda"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69700a0a-1720-48f3-82e8-4c19429ad1d5")
+		)
+		(pin "1"
+			(uuid "0179652b-e521-47b8-aa66-de195eefcb65")
+		)
+		(instances
+			(project ""
+				(path "/01593c05-32ee-43cc-9d3f-a6fed62a39f4/b6f834a9-11ca-4a09-9cf4-5366685f0c51"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 200.66 92.71 0)
 		(unit 1)
@@ -7800,76 +7868,6 @@
 			(project "arduino-mega-2560"
 				(path "/01593c05-32ee-43cc-9d3f-a6fed62a39f4/b6f834a9-11ca-4a09-9cf4-5366685f0c51"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MH2029_300Y:MH2029-300Y")
-		(at 231.14 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f390dd71-13b8-4c0c-9407-c592db8989ca")
-		(property "Reference" "L1"
-			(at 223.52 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MH2029-300Y"
-			(at 223.52 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "IND_BOURNS_MH2029"
-			(at 231.14 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "MH2029-300Y"
-			(at 231.14 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4314d52-3773-4159-9cac-03b33a59b83c")
-		)
-		(pin "2"
-			(uuid "3c9c3927-bdfc-46ba-a6f8-f0809e0737a2")
-		)
-		(instances
-			(project "arduino-mega-2560"
-				(path "/01593c05-32ee-43cc-9d3f-a6fed62a39f4/b6f834a9-11ca-4a09-9cf4-5366685f0c51"
-					(reference "L1")
 					(unit 1)
 				)
 			)
