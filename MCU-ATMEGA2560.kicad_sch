@@ -7168,6 +7168,10 @@
 		(at 154.94 167.64)
 		(uuid "e65c3728-47c9-490d-83ff-e974a6c44275")
 	)
+	(no_connect
+		(at 213.36 227.33)
+		(uuid "ebe1a47d-8b54-4e93-9d13-d194d257020d")
+	)
 	(wire
 		(pts
 			(xy 292.1 151.13) (xy 299.72 151.13)
@@ -7700,7 +7704,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 107.95) (xy 312.42 101.6)
+			(xy 312.42 101.6) (xy 312.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8610,6 +8614,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 279.4) (xy 114.3 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84abe650-8416-4a96-a519-3d13a5569a3a")
+	)
+	(wire
+		(pts
 			(xy 292.1 138.43) (xy 299.72 138.43)
 		)
 		(stroke
@@ -8627,6 +8641,16 @@
 			(type default)
 		)
 		(uuid "8611f58c-ffaf-4110-988e-e6228aadf3a9")
+	)
+	(wire
+		(pts
+			(xy 299.72 101.6) (xy 299.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86223fbd-a7cd-43cc-bbd7-981dee8beed5")
 	)
 	(wire
 		(pts
@@ -9500,16 +9524,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 107.95) (xy 299.72 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca2a50da-95ea-47e4-9261-cdfc59785c58")
-	)
-	(wire
-		(pts
 			(xy 226.06 205.74) (xy 237.49 205.74)
 		)
 		(stroke
@@ -9590,16 +9604,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 278.13) (xy 125.73 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d205f157-272d-4e8a-9924-952466a56ad2")
-	)
-	(wire
-		(pts
 			(xy 182.88 224.79) (xy 182.88 227.33)
 		)
 		(stroke
@@ -9627,6 +9631,16 @@
 			(type default)
 		)
 		(uuid "d33403fd-6626-490a-bb7a-b181819984e1")
+	)
+	(wire
+		(pts
+			(xy 104.14 278.13) (xy 104.14 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d403d984-4533-418a-b140-f02e0e37c29d")
 	)
 	(wire
 		(pts
@@ -9830,7 +9844,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 58.42) (xy 233.68 58.42)
+			(xy 226.06 58.42) (xy 234.95 58.42)
 		)
 		(stroke
 			(width 0)
@@ -10081,13 +10095,13 @@
 		(uuid "045a007d-3df7-4ae5-b38b-4c040445e42f")
 	)
 	(label "AVCC"
-		(at 147.32 73.66 0)
+		(at 154.94 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0507b3c4-0c6f-4dd4-9484-84155b6743f5")
 	)
@@ -10114,7 +10128,7 @@
 		(uuid "080e0e86-016a-46b8-bcf8-8301c6c395ed")
 	)
 	(label "AREF"
-		(at 147.32 71.12 0)
+		(at 140.97 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10212,17 +10226,6 @@
 		)
 		(uuid "1a72373b-2ac9-476b-be99-89abaa0faf2d")
 	)
-	(label "SCL"
-		(at 256.54 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f67f8e7-e315-4403-87f0-44391cf37b2d")
-	)
 	(label "2"
 		(at 285.75 49.53 0)
 		(fields_autoplaced yes)
@@ -10246,7 +10249,7 @@
 		(uuid "28c85032-ad6b-414b-8061-34002eb22550")
 	)
 	(label "AREF"
-		(at 256.54 83.82 0)
+		(at 251.46 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10312,7 +10315,7 @@
 		(uuid "3385a914-4749-4ee6-8640-b7610ff718cd")
 	)
 	(label "8"
-		(at 346.71 201.93 0)
+		(at 346.71 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10531,6 +10534,17 @@
 		)
 		(uuid "55fd6d55-36a7-44c3-9ee6-191ae4da7fb3")
 	)
+	(label "USBVCC"
+		(at 114.3 279.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56c267ee-380d-4de3-a866-ccf6b10d75fa")
+	)
 	(label "PE0"
 		(at 247.65 165.1 0)
 		(fields_autoplaced yes)
@@ -10598,7 +10612,7 @@
 		(uuid "60f89cc7-b517-446a-914b-bcdcefeaa3bc")
 	)
 	(label "PA6"
-		(at 227.33 58.42 0)
+		(at 234.95 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10651,6 +10665,17 @@
 			(justify left bottom)
 		)
 		(uuid "650e17a8-464a-4db9-a38e-045d50de4322")
+	)
+	(label "GND"
+		(at 302.26 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "676cb7b4-d483-4ece-90fe-24b555ba7772")
 	)
 	(label "RESET"
 		(at 147.32 55.88 0)
@@ -10773,6 +10798,17 @@
 		)
 		(uuid "6baa1c3c-8f31-491d-a756-1786c469e32a")
 	)
+	(label "6"
+		(at 208.28 19.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7064b7d1-7417-47b7-b680-a427ee6a1afd")
+	)
 	(label "PL3"
 		(at 149.86 129.54 0)
 		(fields_autoplaced yes)
@@ -10796,7 +10832,7 @@
 		(uuid "70b5bf0c-e4ec-4459-8f64-703c2049a008")
 	)
 	(label "PA4"
-		(at 227.33 63.5 0)
+		(at 233.68 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10851,7 +10887,7 @@
 		(uuid "75f898fd-500b-4cb9-afda-b45c1c481406")
 	)
 	(label "SCL"
-		(at 256.54 78.74 0)
+		(at 251.46 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10873,13 +10909,13 @@
 		(uuid "7638de3e-de63-4102-bee4-9af9bce2a56a")
 	)
 	(label "+3V3"
-		(at 224.79 229.87 90)
+		(at 224.79 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7935119e-d0e3-4be4-a855-d5eafe1b6a70")
 	)
@@ -10994,7 +11030,7 @@
 		(uuid "8a48cc64-ecda-4973-b323-9ba81ebfeca5")
 	)
 	(label "PA5"
-		(at 227.33 60.96 0)
+		(at 233.68 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11070,17 +11106,6 @@
 		)
 		(uuid "9fb8a378-74ac-4397-a7d0-9b9f00006e26")
 	)
-	(label "PA6"
-		(at 227.33 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ffdec38-6986-4ecd-9118-72c53f79f40d")
-	)
 	(label "7"
 		(at 341.63 35.56 270)
 		(fields_autoplaced yes)
@@ -11124,6 +11149,17 @@
 			(justify left bottom)
 		)
 		(uuid "a44fc5e8-ad38-4885-b342-320cdd8c5366")
+	)
+	(label "3"
+		(at 215.9 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6b930da-0295-4cb0-a5b8-35ce24ecce5f")
 	)
 	(label "PE3"
 		(at 245.11 152.4 0)
@@ -11258,7 +11294,7 @@
 		(uuid "b49b2839-e2cc-4f67-83cf-73c41ab43509")
 	)
 	(label "SDA"
-		(at 256.54 81.28 0)
+		(at 251.46 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11489,7 +11525,7 @@
 		(uuid "d53c0c55-476d-4fd1-9c91-8325f37b38de")
 	)
 	(label "PA2"
-		(at 227.33 68.58 0)
+		(at 233.68 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11577,7 +11613,7 @@
 		(uuid "e011fd02-d594-44e0-ade9-f07c7a0a654f")
 	)
 	(label "GND"
-		(at 256.54 86.36 0)
+		(at 251.46 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11610,7 +11646,7 @@
 		(uuid "e538f030-0593-4085-bb7c-87e5f742e6d3")
 	)
 	(label "PA1"
-		(at 227.33 71.12 0)
+		(at 233.68 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11643,7 +11679,7 @@
 		(uuid "e84f771f-fe21-4005-9d57-fd05feab8337")
 	)
 	(label "PA7"
-		(at 227.33 55.88 0)
+		(at 233.68 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11852,7 +11888,7 @@
 		(uuid "fe1890fe-f52c-44b7-ab25-88a6868369d9")
 	)
 	(label "PA0"
-		(at 227.33 73.66 0)
+		(at 233.68 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11885,7 +11921,7 @@
 		(uuid "ff698e97-e1eb-4fa1-9096-4c6db7384e3e")
 	)
 	(label "PA3"
-		(at 227.33 66.04 0)
+		(at 233.68 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12188,7 +12224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 92.71 91.44 0)
 			(effects
 				(font
@@ -12735,7 +12771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
 			(at 256.54 134.62 0)
 			(effects
 				(font
@@ -12966,7 +13002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 36.83 233.68 0)
 			(effects
 				(font
@@ -13036,7 +13072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 100.33 132.08 0)
 			(effects
 				(font
@@ -13103,7 +13139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 212.09 46.482 90)
 			(effects
 				(font
@@ -13171,7 +13207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm_ThermalVias"
 			(at 255.27 49.53 0)
 			(effects
 				(font
@@ -13323,7 +13359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
 			(at 256.54 157.48 0)
 			(effects
 				(font
@@ -13408,7 +13444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 281.94 35.052 90)
 			(effects
 				(font
@@ -13478,7 +13514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 50.292 219.71 90)
 			(effects
 				(font
@@ -13548,7 +13584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 69.342 66.04 90)
 			(effects
 				(font
@@ -13615,7 +13651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 212.09 32.512 90)
 			(effects
 				(font
@@ -13749,7 +13785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCU-ATMEGA2560-16AU_TQFP100_:TQFP100-0.5-14X14MM"
+		(property "Footprint" "MCU-ATMEGA2560-16AU_TQFP100:TQFP100-0.5-14X14MM"
 			(at 190.5 132.08 0)
 			(effects
 				(font
@@ -14202,7 +14238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 299.72 36.83 0)
 			(effects
 				(font
@@ -14269,7 +14305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 212.09 17.272 90)
 			(effects
 				(font
@@ -14339,7 +14375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 330.2 222.25 0)
 			(effects
 				(font
@@ -14409,7 +14445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 339.852 39.37 90)
 			(effects
 				(font
@@ -14478,7 +14514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 66.04 233.68 0)
 			(effects
 				(font
@@ -14680,7 +14716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSTCE16M9V53-R0:OSC_CSTCE16M9V53-R0"
+		(property "Footprint" "CSTCE16M9V53_R0:OSC_CSTCE16M9V53-R0"
 			(at 105.41 66.04 0)
 			(effects
 				(font
@@ -14794,7 +14830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -14861,7 +14897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x18_P1.27mm_Vertical"
 			(at 307.34 130.81 0)
 			(effects
 				(font
@@ -15031,7 +15067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical"
 			(at 373.38 60.96 0)
 			(effects
 				(font
@@ -15244,7 +15280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 281.94 47.752 90)
 			(effects
 				(font
@@ -15314,7 +15350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -15449,7 +15485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 344.932 204.47 90)
 			(effects
 				(font
@@ -15517,7 +15553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm_ThermalVias"
 			(at 95.25 219.71 0)
 			(effects
 				(font
@@ -15603,7 +15639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
 			(at 256.54 180.34 0)
 			(effects
 				(font
@@ -15757,7 +15793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 224.79 231.14 0)
 			(effects
 				(font
@@ -15958,7 +15994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 85.09 85.09 0)
 			(effects
 				(font
@@ -16091,7 +16127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 212.09 24.892 90)
 			(effects
 				(font
@@ -16158,7 +16194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 212.09 40.132 90)
 			(effects
 				(font
@@ -16360,7 +16396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 50.292 237.49 90)
 			(effects
 				(font
@@ -16494,7 +16530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
 			(at 43.18 163.83 0)
 			(effects
 				(font
@@ -16569,7 +16605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 71.12 91.44 0)
 			(effects
 				(font
@@ -16638,7 +16674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x10_P1.00mm_Vertical"
 			(at 269.24 88.9 0)
 			(effects
 				(font
@@ -16730,7 +16766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
 			(at 134.62 149.86 0)
 			(effects
 				(font
@@ -16818,7 +16854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 356.362 39.37 90)
 			(effects
 				(font
@@ -16886,7 +16922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 299.72 49.53 0)
 			(effects
 				(font
@@ -17088,7 +17124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DIODE_CD1206-S01575_BRN"
+		(property "Footprint" "CD1206_S01575:DIODE_CD1206-S01575_BRN"
 			(at 353.06 209.55 0)
 			(effects
 				(font
@@ -17157,7 +17193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
 			(at 66.04 127 0)
 			(effects
 				(font
