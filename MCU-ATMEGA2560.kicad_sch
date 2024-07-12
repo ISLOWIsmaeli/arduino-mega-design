@@ -7,6 +7,8 @@
 	(title_block
 		(title "MCU-ATMEGA2560")
 		(date "2024-07-11")
+		(rev "0")
+		(company "GEVITON ENTERPRISES LIMITED")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LMV358"
@@ -7378,16 +7380,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 41.91) (xy 388.62 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "159a3bf0-50ad-4cf6-a10a-6bdf694d5b9a")
-	)
-	(wire
-		(pts
 			(xy 243.84 153.67) (xy 243.84 152.4)
 		)
 		(stroke
@@ -12965,7 +12957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 39.37 234.9562 0)
 			(effects
 				(font
@@ -13477,7 +13469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 54.61 220.9799 0)
 			(effects
 				(font
@@ -13547,7 +13539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1M"
 			(at 73.66 67.3099 0)
 			(effects
 				(font
@@ -14338,7 +14330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "22pF"
 			(at 332.74 223.5262 0)
 			(effects
 				(font
@@ -14467,7 +14459,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "54ab970a-606c-4431-8d09-fdd9bdb631d9")
 		(property "Reference" "C3"
 			(at 68.58 232.4162 0)
@@ -14478,8 +14469,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 68.58 234.9562 0)
+		(property "Value" "100nF"
+			(at 68.58 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,10 +15430,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "799e4d01-0033-434b-96a5-a75cf152b6d1")
 		(property "Reference" "R9"
-			(at 349.25 203.1999 0)
+			(at 340.868 202.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15450,13 +15440,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 349.25 205.7399 0)
+		(property "Value" "10K"
+			(at 344.17 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -15758,7 +15748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1uF"
 			(at 227.33 232.4162 0)
 			(effects
 				(font
@@ -16361,7 +16351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 54.61 238.7599 0)
 			(effects
 				(font

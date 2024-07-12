@@ -7,6 +7,8 @@
 	(title_block
 		(title "ATmega16U2")
 		(date "2024-07-11")
+		(rev "0")
+		(company "GEVITON ENTERPRISES LIMITED")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_B"
