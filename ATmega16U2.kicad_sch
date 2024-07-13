@@ -7630,7 +7630,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MCU-ATMEGA2560-16AU_TQFP100:TQFP100-0.5-14X14MM"
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD_HandSoldering"
 			(at 181.61 109.22 0)
 			(effects
 				(font
