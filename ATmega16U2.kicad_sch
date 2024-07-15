@@ -2730,13 +2730,14 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SMD-FERRITE-BEAD-30R-3A_0805_"
-				(at -2.5446 -2.5446 0)
+			(property "Value" "30R 3A"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "SMD-FERRITE-BEAD-30R-3A_0805_:L0805"
@@ -2808,16 +2809,6 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "30R 3A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5518,7 +5509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Hirose:Hirose_DF11-4DP-2DSA_2x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x02_P1.00mm_Vertical"
 			(at 78.74 100.33 0)
 			(effects
 				(font
