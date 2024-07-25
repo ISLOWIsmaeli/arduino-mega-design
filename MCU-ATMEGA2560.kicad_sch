@@ -16871,7 +16871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CD1206_S01575:DIODE_CD1206-S01575_BRN"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 353.06 209.55 0)
 			(effects
 				(font
