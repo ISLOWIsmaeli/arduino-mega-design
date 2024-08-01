@@ -1,0 +1,171 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "01593c05-32ee-43cc-9d3f-a6fed62a39f4")
+	(paper "A4")
+	(title_block
+		(title "Arduino Mega 2560")
+		(date "2024-07-08")
+		(rev "0")
+		(company "Geviton Enterprise Limited")
+	)
+	(lib_symbols)
+	(sheet
+		(at 31.75 106.68)
+		(size 71.12 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a7145a3-0ee0-45c1-ad79-b2107a4324b3")
+		(property "Sheetname" "Mounting Holes"
+			(at 31.75 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mountingHoles.kicad_sch"
+			(at 31.75 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arduino-mega-2560"
+				(path "/01593c05-32ee-43cc-9d3f-a6fed62a39f4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 25.4)
+		(size 73.66 60.96)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6f834a9-11ca-4a09-9cf4-5366685f0c51")
+		(property "Sheetname" "ATmega16U2"
+			(at 196.85 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ATmega16U2.kicad_sch"
+			(at 196.85 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arduino-mega-2560"
+				(path "/01593c05-32ee-43cc-9d3f-a6fed62a39f4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 22.86)
+		(size 76.2 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9bc6889-35cb-482b-9d74-3324f3dce8d7")
+		(property "Sheetname" "MCU-ATMEGA2560"
+			(at 100.33 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU-ATMEGA2560.kicad_sch"
+			(at 100.33 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arduino-mega-2560"
+				(path "/01593c05-32ee-43cc-9d3f-a6fed62a39f4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 20.32)
+		(size 63.5 64.77)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa0a716f-64bc-4849-b74e-8fb50e8d1155")
+		(property "Sheetname" "power-supply"
+			(at 19.05 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power-supply.kicad_sch"
+			(at 19.05 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arduino-mega-2560"
+				(path "/01593c05-32ee-43cc-9d3f-a6fed62a39f4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

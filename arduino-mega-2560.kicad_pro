@@ -58,9 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.3,
+          "gap": 0.2,
           "via_gap": 0.5,
-          "width": 0.3
+          "width": 0.25
         }
       ],
       "drc_exclusions": [],
@@ -190,6 +190,7 @@
         0.1,
         0.115469,
         0.2032,
+        0.25,
         0.3,
         0.5
       ],
@@ -516,7 +517,7 @@
         "name": "USB Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "track_width": 0.35,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -530,11 +531,11 @@
     "netclass_patterns": [
       {
         "netclass": "USB Data",
-        "pattern": "/ATmega16U2/D+"
+        "pattern": "/ATmega16U2/D*"
       },
       {
-        "netclass": "USB Data",
-        "pattern": "/ATmega16U2/D-"
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
