@@ -120,7 +120,7 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "max_error": 0.005,
+        "max_error": 0.1,
         "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
@@ -129,7 +129,7 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.2,
@@ -547,7 +547,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../arduinoMega2560/arduino-mega-2560.step",
       "svg": "",
       "vrml": ""
     },
@@ -668,6 +668,10 @@
     [
       "b6f834a9-11ca-4a09-9cf4-5366685f0c51",
       "ATmega16U2"
+    ],
+    [
+      "0a7145a3-0ee0-45c1-ad79-b2107a4324b3",
+      "Mounting Holes"
     ]
   ],
   "text_variables": {}

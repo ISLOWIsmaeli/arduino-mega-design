@@ -12,6 +12,44 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 31.75 106.68)
+		(size 71.12 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a7145a3-0ee0-45c1-ad79-b2107a4324b3")
+		(property "Sheetname" "Mounting Holes"
+			(at 31.75 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mountingHoles.kicad_sch"
+			(at 31.75 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "arduino-mega-2560"
+				(path "/01593c05-32ee-43cc-9d3f-a6fed62a39f4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 196.85 25.4)
 		(size 73.66 60.96)
 		(fields_autoplaced yes)

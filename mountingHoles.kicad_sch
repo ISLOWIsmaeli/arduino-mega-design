@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "4305f530-81ef-4871-8a4b-19ebfbd88527")
+	(uuid "3e0a8242-f85c-4972-8397-11c533c6e928")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
