@@ -12652,7 +12652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical"
 			(at 256.54 134.62 0)
 			(effects
 				(font
@@ -13088,7 +13088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm_ThermalVias"
+		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm"
 			(at 255.27 49.53 0)
 			(effects
 				(font
@@ -13240,7 +13240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical"
 			(at 256.54 157.48 0)
 			(effects
 				(font
@@ -13666,7 +13666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCU-ATMEGA2560-16AU_TQFP100:TQFP100-0.5-14X14MM"
+		(property "Footprint" "ATMEGA2560-16AU:QFP50P1600X1600X120-100N"
 			(at 190.5 132.08 0)
 			(effects
 				(font
@@ -15367,7 +15367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm_ThermalVias"
+		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.5x3mm_Mask1.73x2.36mm"
 			(at 95.25 219.71 0)
 			(effects
 				(font
@@ -15453,7 +15453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical"
 			(at 256.54 180.34 0)
 			(effects
 				(font
@@ -16421,7 +16421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x10_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x10_P1.27mm_Vertical"
 			(at 269.24 88.9 0)
 			(effects
 				(font
@@ -16513,7 +16513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical"
 			(at 134.62 149.86 0)
 			(effects
 				(font
@@ -16940,7 +16940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical"
 			(at 66.04 127 0)
 			(effects
 				(font

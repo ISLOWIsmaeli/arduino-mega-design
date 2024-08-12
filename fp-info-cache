@@ -1,4 +1,11 @@
-23726381082483512
+23729827458028396
+ATMEGA2560-16AU
+QFP50P1600X1600X120-100N
+10018783-11100TLF
+Integrated Circuit
+0
+100
+100
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63482,6 +63489,13 @@ solder jumper open
 0
 5
 3
+KiCad
+QFP50P1600X1600X120-100N
+10018783-11100TLF
+Integrated Circuit
+0
+100
+100
 LD1117S50CTR
 SOT230P700X180-4N
 
